@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E commerce website</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <div class="navigations">
+            <a href="">E-commerce</a> <!-- E-commerce link -->
+            <a href="#"><i class="bx bxs-shopping-bag" id="cart_logo"></i></a> <!-- Cart button -->
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar hide"> <!-- Sidebar element -->
+        <div class="title">
+            <h4>Your cart</h4>
+            <div class="cancel">X</div> <!-- Cancel button -->
+        </div>
+
+        <!-- Cart Items -->
+        <div class="cart_items">
+            <!-- Individual Cart Item -->
+            <!-- Cart items will be dynamically generated here -->
+        </div>
+        <!-- End of Cart Items -->
+
+        <!-- Total Cost -->
+        <div id="total_cost"></div>
+        <!-- End of Total Cost -->
+    </div>
+    <!-- End of Sidebar -->
+
+    <!-- Shop Section -->
+    <div class="section">
+        <div class="shop container">
+            <h3>Shop products</h3>
+        </div>
+        <div class="products"></div>
+    </div>
+    <!-- End of Shop Section -->
+
+    <script src="main.js"></script>
+</body>
+</html>
